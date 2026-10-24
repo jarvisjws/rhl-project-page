@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504pt" height="269pt" viewBox="0 0 504 269"><rect width="504" height="269" fill="white"/>
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#20303c"/></marker></defs>
+<text x="10" y="16" font-family="Times New Roman, Times, serif" font-size="11" fill="#20303c" font-weight="700" text-anchor="start">Within a case: agent-led revision and robot execution</text>
+<rect x="10" y="30" width="314" height="54" rx="5" fill="#edf5fa" stroke="#c6d0d6"/>
+<text x="20" y="47" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Outer coding agent</text>
+<text x="20" y="63" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Reads task code, state and failed execution.</text>
+<text x="20" y="75" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Chooses diagnosis and edits within granted scope.</text>
+<rect x="10" y="112" width="142" height="48" rx="5" fill="#f3f6f8" stroke="#c6d0d6"/>
+<text x="20" y="128" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Edited procedure</text>
+<text x="20" y="145" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Code / parameters / phases</text>
+<rect x="182" y="112" width="142" height="48" rx="5" fill="#f3f6f8" stroke="#c6d0d6"/>
+<text x="192" y="128" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Task consumer</text>
+<text x="192" y="145" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Prepare → plan → execute</text>
+<line x1="81.0" y1="84.0" x2="81.0" y2="112.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="81,112 83.5,107.0 78.5,107.0" fill="#20303c"/>
+<text x="90" y="101" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">revision</text>
+<line x1="152.0" y1="136.0" x2="182.0" y2="136.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="182,136 177.0,133.5 177.0,138.5" fill="#20303c"/>
+<rect x="10" y="183" width="314" height="40" rx="5" fill="#fff8ed" stroke="#c6d0d6"/>
+<text x="20" y="199" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Execution evidence + original task evaluator</text>
+<text x="20" y="214" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">State / planner result / phase progress / goal verdict</text>
+<line x1="253.0" y1="160.0" x2="253.0" y2="183.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="253,183 255.5,178.0 250.5,178.0" fill="#20303c"/>
+<line x1="10.0" y1="202.0" x2="3.0" y2="202.0" stroke="#20303c" stroke-width="1"/>
+<line x1="3.0" y1="202.0" x2="3.0" y2="56.0" stroke="#20303c" stroke-width="1"/>
+<line x1="3.0" y1="56.0" x2="10.0" y2="56.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="10,56 5.0,53.5 5.0,58.5" fill="#20303c"/>
+<rect x="352" y="30" width="142" height="193" rx="5" fill="#eff7f3" stroke="#c6d0d6"/>
+<text x="363" y="47" font-family="Times New Roman, Times, serif" font-size="11" fill="#20303c" font-weight="700" text-anchor="start">Across cases</text>
+<text x="363" y="70" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Retained procedure</text>
+<text x="363" y="82" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">+ applicability scope</text>
+<line x1="422.0" y1="91.0" x2="422.0" y2="116.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="422,116 424.5,111.0 419.5,111.0" fill="#20303c"/>
+<text x="363" y="132" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">New observed state</text>
+<text x="363" y="153" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Instantiate the same rule</text>
+<text x="363" y="165" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">with new inputs.</text>
+<text x="363" y="191" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Task execution</text>
+<text x="363" y="203" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">+ new outcome</text>
+<line x1="324.0" y1="57.0" x2="328.0" y2="57.0" stroke="#20303c" stroke-width="1"/>
+<line x1="331.0" y1="57.0" x2="335.0" y2="57.0" stroke="#20303c" stroke-width="1"/>
+<line x1="338.0" y1="57.0" x2="342.0" y2="57.0" stroke="#20303c" stroke-width="1"/>
+<line x1="345.0" y1="57.0" x2="349.0" y2="57.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="352,57 347.0,54.5 347.0,59.5" fill="#20303c"/>
+<line x1="352.0" y1="139.0" x2="348.0" y2="139.0" stroke="#20303c" stroke-width="1"/>
+<line x1="345.0" y1="139.0" x2="341.0" y2="139.0" stroke="#20303c" stroke-width="1"/>
+<line x1="338.0" y1="139.0" x2="334.0" y2="139.0" stroke="#20303c" stroke-width="1"/>
+<line x1="331.0" y1="139.0" x2="327.0" y2="139.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="324,139 329.0,141.5 329.0,136.5" fill="#20303c"/>
+<text x="10" y="241" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Shared path: phase-plan guards (Handover / Laptop / Hammer).</text>
+<text x="10" y="255" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Xylophone path: task teacher + radial function + event auditor.</text>
+</svg>

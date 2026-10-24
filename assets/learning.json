@@ -1,0 +1,150 @@
+[
+  {
+    "key": "l1_failure",
+    "title": "L1 \u00b7 attempt52",
+    "outcome": "Original failure",
+    "description": "The original run stops before completing the final key.",
+    "poster": "assets/l1_failure-video-start.png",
+    "original_run": "xylophone_key7_observe_L1_seed0_fiftysecond_20261016_24h",
+    "video": {
+      "role": "task",
+      "src": "media/l1_failure-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 542,
+      "duration": 21.68,
+      "poster": "assets/l1_failure-video-start.png",
+      "events": [
+        {
+          "label": "Run start",
+          "time": 0
+        },
+        {
+          "label": "Recorded end",
+          "time": 21.64
+        }
+      ],
+      "source_sha256": "0691713e9e2aea011822402dab31113383220c59a9591d937e9259c61f7e67e1",
+      "output_sha256": "c617f0d85dba2e8b134431fc5e741cb76fc906c2f5642106f6a4c7e1d6807842",
+      "source_steps": [
+        1,
+        5404
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l1_failure-timing.json",
+      "captions": "assets/l1_failure.vtt"
+    }
+  },
+  {
+    "key": "l1_success",
+    "title": "L1 \u00b7 attempt55",
+    "outcome": "Revised success",
+    "description": "The state-derived rule is used in a revised run that reaches the original goal.",
+    "poster": "assets/l1_success-video-start.png",
+    "original_run": "xylophone_radial_L1_seed0_fiftyfifth_20261016_24h",
+    "video": {
+      "role": "task",
+      "src": "media/l1_success-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 592,
+      "duration": 23.68,
+      "poster": "assets/l1_success-video-start.png",
+      "events": [
+        {
+          "label": "Run start",
+          "time": 0
+        },
+        {
+          "label": "Recorded end",
+          "time": 23.64
+        }
+      ],
+      "source_sha256": "9c01493e7f8f94a0115f20f7d49aae79e9ce6cd4a8ab72e326ec8622d44deaf9",
+      "output_sha256": "19cc3ca91bb11663431748f20b0bc643e0a0d3f8a8769099e3329d823046df32",
+      "source_steps": [
+        1,
+        5906
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l1_success-timing.json",
+      "captions": "assets/l1_success.vtt"
+    }
+  },
+  {
+    "key": "l14_success",
+    "title": "L14 \u00b7 attempt62",
+    "outcome": "Later success",
+    "description": "The retained rule is instantiated from this layout\u2019s recorded state.",
+    "poster": "assets/l14_success-video-start.png",
+    "original_run": "xylophone_radial_L14_seed0_sixtysecond_20261016_24h",
+    "video": {
+      "role": "task",
+      "src": "media/l14_success-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 596,
+      "duration": 23.84,
+      "poster": "assets/l14_success-video-start.png",
+      "events": [
+        {
+          "label": "Run start",
+          "time": 0
+        },
+        {
+          "label": "Recorded end",
+          "time": 23.8
+        }
+      ],
+      "source_sha256": "1a37f5363d3864beb767dc304a35ab5f510714e9a600dc1a7b582bf01f87eaf4",
+      "output_sha256": "270944f6ce163f2554016fcdda86432a6a6512bdc8b0577668871277ccb5e9c5",
+      "source_steps": [
+        1,
+        5946
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l14_success-timing.json",
+      "captions": "assets/l14_success.vtt"
+    }
+  },
+  {
+    "key": "l11_failure",
+    "title": "L11 \u00b7 attempt60",
+    "outcome": "Later failure",
+    "description": "The rule is consumed, but planning stops and the task remains unsolved.",
+    "poster": "assets/l11_failure-video-start.png",
+    "original_run": "xylophone_radial_L11_seed0_sixtieth_20261016_24h",
+    "video": {
+      "role": "task",
+      "src": "media/l11_failure-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 528,
+      "duration": 21.12,
+      "poster": "assets/l11_failure-video-start.png",
+      "events": [
+        {
+          "label": "Run start",
+          "time": 0
+        },
+        {
+          "label": "Recorded end",
+          "time": 21.080000000000002
+        }
+      ],
+      "source_sha256": "cde693e3b7eaa239d67eb8f19fe296343d7fc1084022fde875aa60f47860f4d2",
+      "output_sha256": "8d8202c2e9d0e46e85b384c1c14dd9ce3d3d078c4175e38b256e73ebfc8a1f27",
+      "source_steps": [
+        1,
+        5264
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l11_failure-timing.json",
+      "captions": "assets/l11_failure.vtt"
+    }
+  }
+]

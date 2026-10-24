@@ -1,0 +1,19 @@
+A failed robot execution can expose a weakness in the procedure used to solve
+a task, rather than in the task specification itself. Robotic Heuristic
+Learning (RHL) studies how a coding agent revises executable operational
+knowledge from such feedback while preserving task requirements. The system
+connects agent-led diagnosis and program editing to task-specific preparation,
+robot execution and evaluation. Revised procedures can be retained and
+instantiated from the state of later cases. We examine two simulated settings:
+recovery from policy failures in RoboTwin and task-initial solving in RoboDojo.
+Across the included development histories, the system attains the original
+task goals in 104/115 eligible Twin cases and 620/627 cases in a fixed Dojo
+batch. These are cumulative outcomes under changing versions and budgets;
+Twin excludes six historically reviewed cases and Dojo membership is
+outcome-selected. An audited interaction chain establishes agent-produced
+revision followed by success. A separate geometric rule is retained and
+consumed on 24 previously failed layouts, with 19 successes under expanded
+horizons. Together, these results demonstrate a route from execution feedback
+to task solutions and reusable operational knowledge. The present route
+requires substantial iterative effort; comparative efficiency and broader
+transfer remain unmeasured.

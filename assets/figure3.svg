@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504pt" height="249pt" viewBox="0 0 504 249"><rect width="504" height="249" fill="white"/>
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#20303c"/></marker></defs>
+<text x="10" y="16" font-family="Times New Roman, Times, serif" font-size="11" fill="#20303c" font-weight="700" text-anchor="start">From a fixed orientation to a state-dependent procedure</text>
+<line x1="77.00000000000001" y1="159.5" x2="80.27546544395784" y2="157.20406312686123" stroke="#d55e00" stroke-width="1"/>
+<line x1="82.7320645269262" y1="155.48211047200718" x2="86.00752997088402" y2="153.1861735988684" stroke="#d55e00" stroke-width="1"/>
+<line x1="88.46412905385239" y1="151.46422094401433" x2="91.7395944978102" y2="149.16828407087556" stroke="#d55e00" stroke-width="1"/>
+<line x1="94.19619358077857" y1="147.4463314160215" x2="97.4716590247364" y2="145.15039454288274" stroke="#d55e00" stroke-width="1"/>
+<line x1="99.92825810770475" y1="143.42844188802866" x2="103.20372355166258" y2="141.1325050148899" stroke="#d55e00" stroke-width="1"/>
+<line x1="105.66032263463094" y1="139.41055236003584" x2="108.93578807858876" y2="137.11461548689707" stroke="#d55e00" stroke-width="1"/>
+<line x1="111.39238716155712" y1="135.392662832043" x2="114.66785260551495" y2="133.09672595890424" stroke="#d55e00" stroke-width="1"/>
+<line x1="117.1244516884833" y1="131.37477330405017" x2="120.39991713244113" y2="129.0788364309114" stroke="#d55e00" stroke-width="1"/>
+<line x1="122.8565162154095" y1="127.35688377605733" x2="126.13198165936731" y2="125.06094690291857" stroke="#d55e00" stroke-width="1"/>
+<line x1="128.5885807423357" y1="123.3389942480645" x2="131.8640461862935" y2="121.04305737492572" stroke="#d55e00" stroke-width="1"/>
+<line x1="134.3206452692619" y1="119.32110472007166" x2="137.59611071321967" y2="117.0251678469329" stroke="#d55e00" stroke-width="1"/>
+<line x1="140.05270979618805" y1="115.30321519207882" x2="143.32817524014587" y2="113.00727831894005" stroke="#d55e00" stroke-width="1"/>
+<line x1="145.78477432311422" y1="111.28532566408599" x2="149.06023976707206" y2="108.98938879094723" stroke="#d55e00" stroke-width="1"/>
+<line x1="151.51683885004041" y1="107.26743613609315" x2="154.79230429399826" y2="104.9714992629544" stroke="#d55e00" stroke-width="1"/>
+<line x1="157.2489033769666" y1="103.24954660810033" x2="160.52436882092445" y2="100.95360973496156" stroke="#d55e00" stroke-width="1"/>
+<line x1="162.9809679038928" y1="99.23165708010748" x2="166.25643334785062" y2="96.93572020696872" stroke="#d55e00" stroke-width="1"/>
+<line x1="168.713032430819" y1="95.21376755211466" x2="171.98849787477678" y2="92.91783067897589" stroke="#d55e00" stroke-width="1"/>
+<line x1="174.44509695774516" y1="91.19587802412182" x2="177.72056240170298" y2="88.89994115098305" stroke="#d55e00" stroke-width="1"/>
+<line x1="180.17716148467136" y1="87.17798849612899" x2="183.45262692862917" y2="84.88205162299022" stroke="#d55e00" stroke-width="1"/>
+<line x1="185.90922601159753" y1="83.16009896813615" x2="189.18469145555537" y2="80.86416209499738" stroke="#d55e00" stroke-width="1"/>
+<line x1="191.64129053852372" y1="79.14220944014332" x2="194.91675598248156" y2="76.84627256700455" stroke="#d55e00" stroke-width="1"/>
+<line x1="77.00000000000001" y1="159.5" x2="165.29872890379485" y2="65.29557758356697" stroke="#0072b2" stroke-width="1"/>
+<line x1="191.83722384318136" y1="36.982105593610726" x2="192.35892372708548" y2="40.947938322198056" stroke="#d55e00" stroke-width="2"/>
+<line x1="192.75019864001356" y1="43.922312868638556" x2="193.27189852391766" y2="47.888145597225886" stroke="#d55e00" stroke-width="2"/>
+<line x1="193.66317343684574" y1="50.86252014366639" x2="194.18487332074986" y2="54.82835287225372" stroke="#d55e00" stroke-width="2"/>
+<line x1="194.57614823367794" y1="57.80272741869422" x2="195.09784811758203" y2="61.76856014728155" stroke="#d55e00" stroke-width="2"/>
+<line x1="195.48912303051011" y1="64.74293469372205" x2="196.01082291441423" y2="68.70876742230938" stroke="#d55e00" stroke-width="2"/>
+<line x1="196.40209782734232" y1="71.68314196874988" x2="196.89856042478797" y2="75.45712712422939" stroke="#d55e00" stroke-width="2"/>
+<line x1="191.83722384318136" y1="36.982105593610726" x2="165.29872890379485" y2="65.29557758356697" stroke="#0072b2" stroke-width="2"/>
+<circle cx="77.00000000000001" cy="159.5" r="4" fill="#20303c"/>
+<circle cx="191.83722384318136" cy="36.982105593610726" r="4" fill="#007f67"/>
+<circle cx="196.89856042478797" cy="75.45712712422939" r="4" fill="#d55e00"/>
+<circle cx="165.29872890379485" cy="65.29557758356697" r="4" fill="#0072b2"/>
+<text x="65.00000000000001" y="175.5" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Arm base b</text>
+<text x="169.83722384318136" y="24.982105593610726" font-family="Times New Roman, Times, serif" font-size="9" fill="#007f67" font-weight="400" text-anchor="start">Fixed beat-point XY: c</text>
+<text x="204.89856042478797" y="76.45712712422939" font-family="Times New Roman, Times, serif" font-size="9" fill="#d55e00" font-weight="400" text-anchor="start">Old wrist</text>
+<text x="110.29872890379485" y="83.29557758356697" font-family="Times New Roman, Times, serif" font-size="9" fill="#0072b2" font-weight="400" text-anchor="start">Revised wrist</text>
+<text x="10" y="201" font-family="Times New Roman, Times, serif" font-size="9" fill="#65717b" font-weight="400" text-anchor="start">L1 / seed 0: archived target geometry (top view)</text>
+<line x1="14.0" y1="41.0" x2="43.0" y2="41.0" stroke="#20303c" stroke-width="2"/>
+<text x="14" y="33" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">100 mm</text>
+<rect x="270" y="32" width="224" height="65" rx="5" fill="#f3f6f8" stroke="#c6d0d6"/>
+<text x="281" y="48" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Before: fixed world yaw</text>
+<text x="281" y="65" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">180° at L1 / seed0</text>
+<text x="281" y="77" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Modeled wrist distance: 504.90 mm</text>
+<rect x="270" y="108" width="224" height="95" rx="5" fill="#edf5fa" stroke="#c6d0d6"/>
+<text x="281" y="124" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Retained: derive from current state</text>
+<text x="281" y="141" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">held relation + target + base</text>
+<text x="281" y="153" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">→ radial yaw + corrected target</text>
+<text x="281" y="165" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">L1: 129.36°; distance 445.23 mm</text>
+<text x="281" y="177" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Later L14: 144.78° from its own state</text>
+<text x="10" y="223" font-family="Times New Roman, Times, serif" font-size="9" fill="#007f67" font-weight="400" text-anchor="start">Both beat points remain fixed; the two heights project to one XY point.</text>
+<text x="10" y="239" font-family="Times New Roman, Times, serif" font-size="9" fill="#65717b" font-weight="400" text-anchor="start">This conditional geometric property does not establish a feasible collision-free motion.</text>
+</svg>

@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "handover_block.seed3032",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/handover_block.seed3032-policy_initial.png",
+        "meaning": "原policy第一次推理前的重建视图；原编码输入像素误差0，关节误差0，场景签名一致。 外部相机后移0.25m、抬高0.15m以保留完整物块；仅改观察位置。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/handover_block.seed3032-policy_failure.png",
+        "meaning": "原policy第799步末态快照的几何重建；15物体位置误差0，机器人姿态通过，不推进物理，不冒充恢复起点。 外部相机后移0.25m、抬高0.15m以保留完整物块；仅改观察位置。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/handover_block.seed3032-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/handover_block.seed3032-recovery_operation.png",
+        "meaning": "双臂在物块附近完成交接／转运阶段",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/handover_block.seed3032-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/handover_block.seed3032-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "frames": 1809,
+        "duration": 60.3,
+        "fps": 30.0,
+        "source_sha256": "b8bfc3f71867bbf7e8407905432f974f78240aa5b7091b36fd047f622bfa1bac",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 56.233333333333334
+          },
+          {
+            "label": "successful_run_end",
+            "time": 60.266666666666666
+          }
+        ],
+        "poster": "assets/handover_block.seed3032-video-start.png",
+        "source_scene_sha256": "c3e233a5fd3d075c7cd9a04568540413adfb2425657e29f50db1cfcb9df1556d",
+        "output_sha256": "0aabfa035bdb22fb839498c10e646bbbe9ce68efabcbb33b58f23548dcd67692",
+        "renderer_revision": "1f1ffc64f8b47816b8cee936dd3673c5f4965c59",
+        "original_recording": {
+          "src": "media/handover_block.seed3032-recovery.mp4",
+          "source_sha256": "135871cca3a70bae3be535542d99f3431ba692533a24b2956f55fdc7959d4694",
+          "output_sha256": "0654c73f7afe09e0aef2721659fd56cb05f102fb4708a2b94910cab20112b635",
+          "note": "Original observer camera; expanded recorded-state view is the main presentation."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hanging_mug.seed5057",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/hanging_mug.seed5057-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/hanging_mug.seed5057-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步899；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/hanging_mug.seed5057-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/hanging_mug.seed5057-recovery_operation.png",
+        "meaning": "杯移向挂架，选择目标物可辨认的画面",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/hanging_mug.seed5057-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/hanging_mug.seed5057-recovery.mp4",
+        "kind": "Original recovery recording",
+        "frames": 219,
+        "duration": 7.3,
+        "fps": 30.0,
+        "source_sha256": "b47a008c5c351002d381eea7eb74bf0ecd47fb8e1e1082c6e4701b16d9a73222",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 6.766666666666667
+          },
+          {
+            "label": "successful_run_end",
+            "time": 7.266666666666667
+          }
+        ],
+        "output_sha256": "a8118c245e8078eb13603f191357be992c3e49200f1870e24d156d58324473e8"
+      }
+    ]
+  },
+  {
+    "id": "pick_dual_bottles.seed48",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/pick_dual_bottles.seed48-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/pick_dual_bottles.seed48-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步52；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/pick_dual_bottles.seed48-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/pick_dual_bottles.seed48-recovery_operation.png",
+        "meaning": "红瓶抬起转运，另一瓶保持持握",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/pick_dual_bottles.seed48-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/pick_dual_bottles.seed48-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "frames": 2054,
+        "duration": 68.47,
+        "fps": 30.0,
+        "source_sha256": "69ff95ca7f4811c9ad685b97afc4e85d1a63224a6c556092b74f4c269541d375",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 67.33333333333334
+          },
+          {
+            "label": "successful_run_end",
+            "time": 68.43333333333334
+          }
+        ],
+        "output_sha256": "67ab8c8ac5b419acae8dd1612a978ce057fa67f6bd99851430baede7e4b4c03c",
+        "poster": "assets/pick_dual_bottles.seed48-video-start.png",
+        "source_scene_sha256": "5d001b1698f8662317e1ea8e309486910a22527eabcd63f3c54f05d16d949b58",
+        "renderer_revision": "1f1ffc64f8b47816b8cee936dd3673c5f4965c59",
+        "original_recording": {
+          "src": "media/pick_dual_bottles.seed48-recovery.mp4",
+          "source_sha256": "9fcce4443141d4f0eeae7244898986b6a74ccaf1bf70f3620e0af1b0a68e34a3",
+          "output_sha256": "46ae865096da4a901be8bda56da04c4046d1f393eeed77eeab1fcf365d8b9051",
+          "note": "Original observer camera; expanded recorded-state view is the main presentation."
+        }
+      }
+    ],
+    "camera_note": "The recovery uses a wider fixed observer camera; verified source-state stills retain their original framing."
+  },
+  {
+    "id": "stack_blocks_two.seed3017",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/stack_blocks_two.seed3017-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/stack_blocks_two.seed3017-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步799；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/stack_blocks_two.seed3017-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/stack_blocks_two.seed3017-recovery_operation.png",
+        "meaning": "绿色物块向红色物块上方放置",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/stack_blocks_two.seed3017-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/stack_blocks_two.seed3017-recovery.mp4",
+        "kind": "Original recovery recording",
+        "frames": 173,
+        "duration": 5.77,
+        "fps": 30.0,
+        "source_sha256": "9c259c275654aab5d63a496ce5fb5becba3bd200081f2f9886b35490d7998f52",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 4.966666666666667
+          },
+          {
+            "label": "successful_run_end",
+            "time": 5.733333333333333
+          }
+        ],
+        "output_sha256": "5642068109e6858b1f48ef03a80e747fb3fc0718573011f7170ce58d773476bd"
+      }
+    ]
+  },
+  {
+    "id": "open_microwave.seed4023",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/open_microwave.seed4023-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/open_microwave.seed4023-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步1499；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/open_microwave.seed4023-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/open_microwave.seed4023-recovery_operation.png",
+        "meaning": "继续打开铰链门",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/open_microwave.seed4023-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/open_microwave.seed4023-recovery.mp4",
+        "kind": "Original recovery recording",
+        "frames": 306,
+        "duration": 10.2,
+        "fps": 30.0,
+        "source_sha256": "bf2f6696a804988b490ff3eeb8b812ba8520abf773d0d7bb65d9bb87627436c0",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 7.466666666666667
+          },
+          {
+            "label": "successful_run_end",
+            "time": 10.166666666666666
+          }
+        ],
+        "output_sha256": "3f79e4ac36d71af880ef6990ef0a07b09f14143e4aee39b2f358737dae798aa0"
+      }
+    ]
+  },
+  {
+    "id": "lift_pot.seed7187",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/lift_pot.seed7187-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/lift_pot.seed7187-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步399；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/lift_pot.seed7187-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/lift_pot.seed7187-recovery_operation.png",
+        "meaning": "双臂接近锅体两侧并完成抬升阶段",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/lift_pot.seed7187-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/lift_pot.seed7187-recovery.mp4",
+        "kind": "Original recovery recording",
+        "frames": 264,
+        "duration": 8.8,
+        "fps": 30.0,
+        "source_sha256": "54fa2e8852c8f104e95e76a350a83b7c8f47f6afe9101b536032ab5628a337a0",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 8.166666666666666
+          },
+          {
+            "label": "successful_run_end",
+            "time": 8.766666666666667
+          }
+        ],
+        "output_sha256": "3bf97ce7e9408223ddfc976e931b12d57ee411beebbe2c5e4181d7166d54c4f2"
+      }
+    ]
+  },
+  {
+    "id": "shake_bottle_horizontally.seed6020",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/shake_bottle_horizontally.seed6020-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/shake_bottle_horizontally.seed6020-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步699；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/shake_bottle_horizontally.seed6020-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/shake_bottle_horizontally.seed6020-recovery_operation.png",
+        "meaning": "持瓶横向摇动中的一帧；须连同相邻动作帧使用",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/shake_bottle_horizontally.seed6020-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      },
+      {
+        "role": "motion_context",
+        "src": "assets/shake_bottle_horizontally.seed6020-motion_context.png",
+        "meaning": "motion_context",
+        "source_step": null
+      },
+      {
+        "role": "motion_context",
+        "src": "assets/shake_bottle_horizontally.seed6020-motion_context.png",
+        "meaning": "motion_context",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/shake_bottle_horizontally.seed6020-recovery.mp4",
+        "kind": "Original recovery recording",
+        "frames": 221,
+        "duration": 7.37,
+        "fps": 30.0,
+        "source_sha256": "6161a35f1f8df1f544fa88b9ff53b181ae53ce70491a97e86ca000006bf7de1a",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 3.9
+          },
+          {
+            "label": "successful_run_end",
+            "time": 7.333333333333333
+          },
+          {
+            "label": "motion_context",
+            "time": 3.433333333333333
+          },
+          {
+            "label": "motion_context",
+            "time": 4.4
+          }
+        ],
+        "output_sha256": "6c4356a71e13ec20f2f685f98310b4aa9ce00c4a9f7666431fbe8a5a9e38f8b6"
+      }
+    ]
+  },
+  {
+    "id": "open_laptop.seed1042",
+    "benchmark": "robotwin",
+    "frames": [
+      {
+        "role": "policy_initial",
+        "src": "assets/open_laptop.seed1042-policy_initial.png",
+        "meaning": "原policy第一次推理前场景的派生图；原保存输入像素误差0，关节误差0，场景签名一致。",
+        "source_step": null
+      },
+      {
+        "role": "policy_failure",
+        "src": "assets/open_laptop.seed1042-policy_failure.png",
+        "meaning": "原选定失败快照的几何重建，控制步299；物体位置及机器人姿态已核对，不推进物理，不冒充恢复起点。",
+        "source_step": null
+      },
+      {
+        "role": "restored_failure_start",
+        "src": "assets/open_laptop.seed1042-restored_failure_start.png",
+        "meaning": "回执绑定failure_anchored_planning_attempt。是按失败现场重建的起点，不是原策略执行前初始状态，也不是原策略失败瞬间的原始录像。",
+        "source_step": null
+      },
+      {
+        "role": "recovery_operation",
+        "src": "assets/open_laptop.seed1042-recovery_operation.png",
+        "meaning": "夹爪接近笔记本盖板；局部细节较小，不单凭此图解释接触机制",
+        "source_step": null
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/open_laptop.seed1042-successful_run_end.png",
+        "meaning": "该运行task_success或success_after为真；选择结束画面，不声称这是首次触发成功的精确帧。",
+        "source_step": null
+      }
+    ],
+    "videos": [
+      {
+        "role": "recovery",
+        "src": "media/open_laptop.seed1042-recovery.mp4",
+        "kind": "Original recovery recording",
+        "frames": 110,
+        "duration": 3.67,
+        "fps": 30.0,
+        "source_sha256": "a62a2f97c91fa0e6b73ed0cc95164ea1d7870f66466178ff901437725d63f2f1",
+        "events": [
+          {
+            "label": "restored_failure_start",
+            "time": 0.0
+          },
+          {
+            "label": "recovery_operation",
+            "time": 1.4666666666666666
+          },
+          {
+            "label": "successful_run_end",
+            "time": 3.6333333333333333
+          }
+        ],
+        "output_sha256": "aba92f9abf1508ab1580364da2bbad3f9db0d9373b9177ac06b85d44dc7cd5af"
+      }
+    ]
+  },
+  {
+    "id": "play_stacking_toy.layout6.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/play_stacking_toy.layout6.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/play_stacking_toy.layout6.seed0-execution_operation.png",
+        "meaning": "原记录的insert_settle操作阶段（step14800），按该时刻机器人及物体状态重建。",
+        "source_step": 14800
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/play_stacking_toy.layout6.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step15288）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 15288
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/play_stacking_toy.layout6.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 1530,
+        "duration": 61.2,
+        "poster": "assets/play_stacking_toy.layout6.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 59.2,
+            "recorded_step": 14800
+          },
+          {
+            "label": "successful_run_end",
+            "time": 61.16,
+            "recorded_step": 15288
+          }
+        ],
+        "source_sha256": "e7e870b0fa4f18f0bbb91d87c5f8185ea7a14027d81373fe9b1cb64832882403",
+        "output_sha256": "bc7786cb309e154ccbaf0fc365f5420673586a3c7c1df1b9c105e82ed940d01d",
+        "source_steps": [
+          1,
+          15288
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/play_stacking_toy.layout6.seed0-timing.json",
+        "captions": "assets/play_stacking_toy.layout6.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Stack the toy pieces into their required final arrangement.",
+    "instruction_source": "Task-goal description"
+  },
+  {
+    "id": "insert_tubes.layout6.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/insert_tubes.layout6.seed0-task_start.png",
+        "meaning": "执行起始的首条状态记录（step1，0.004秒）；三支试管尚未搬运，不冒称缺失的机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/insert_tubes.layout6.seed0-execution_operation.png",
+        "meaning": "原align_above阶段末：末支试管被移到试管架上方，前两支已在架中。",
+        "source_step": 12634
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/insert_tubes.layout6.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态：三支试管在架中，机器人回原位；成功判定来自原回执。",
+        "source_step": 14120
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/insert_tubes.layout6.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 1413,
+        "duration": 56.52,
+        "poster": "assets/insert_tubes.layout6.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 50.52,
+            "recorded_step": 12630
+          },
+          {
+            "label": "successful_run_end",
+            "time": 56.48,
+            "recorded_step": 14120
+          }
+        ],
+        "source_sha256": "471b863c125c263205def4c7d4f766088500b15ed66288e7ac43f49d32de5fed",
+        "output_sha256": "851a8f9030129574f59d35acf308560e0bdf479727fedc6a92bcce9935137ac7",
+        "source_steps": [
+          1,
+          14120
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/insert_tubes.layout6.seed0-timing.json",
+        "captions": "assets/insert_tubes.layout6.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Insert the tubes into the required holes.",
+    "instruction_source": "Task-goal description"
+  },
+  {
+    "id": "store_tools_in_toolbox.layout15.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/store_tools_in_toolbox.layout15.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/store_tools_in_toolbox.layout15.seed0-execution_operation.png",
+        "meaning": "原记录的lower_into_slot操作阶段（step9786），按该时刻机器人及物体状态重建。",
+        "source_step": 9786
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/store_tools_in_toolbox.layout15.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step10768）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 10768
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/store_tools_in_toolbox.layout15.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 1078,
+        "duration": 43.12,
+        "poster": "assets/store_tools_in_toolbox.layout15.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 39.16,
+            "recorded_step": 9790
+          },
+          {
+            "label": "successful_run_end",
+            "time": 43.08,
+            "recorded_step": 10768
+          }
+        ],
+        "source_sha256": "80362fd576e2c1330febecffb8216d69ab48b054ecd0487921dcb0f46562c242",
+        "output_sha256": "b7e19358ae4c4b45b3f3b3007116b0eec4bb5734939ac5e7acb1238b6c955a20",
+        "source_steps": [
+          1,
+          10768
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/store_tools_in_toolbox.layout15.seed0-timing.json",
+        "captions": "assets/store_tools_in_toolbox.layout15.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Place each tool into its matching position in the toolbox, then reset the robot arm.",
+    "instruction_source": "Original run instruction"
+  },
+  {
+    "id": "play_Xylophone.layout0.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/play_Xylophone.layout0.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/play_Xylophone.layout0.seed0-execution_operation.png",
+        "meaning": "原记录的key7_strike操作阶段（step5466），按该时刻机器人及物体状态重建。",
+        "source_step": 5466
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/play_Xylophone.layout0.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step5526）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 5526
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/play_Xylophone.layout0.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 554,
+        "duration": 22.16,
+        "poster": "assets/play_Xylophone.layout0.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 21.88,
+            "recorded_step": 5470
+          },
+          {
+            "label": "successful_run_end",
+            "time": 22.12,
+            "recorded_step": 5526
+          }
+        ],
+        "source_sha256": "41a392bbed2870fcb89acbb59cc00dfd630b672741ee470cad7e8065a88f34af",
+        "output_sha256": "57e39652b2598625ebf01cd756fd276dddb17422a759668afb58f7e1f719db13",
+        "source_steps": [
+          1,
+          5526
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/play_Xylophone.layout0.seed0-timing.json",
+        "captions": "assets/play_Xylophone.layout0.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Pick up the mallet and strike all xylophone keys from left to right.",
+    "instruction_source": "Original run instruction"
+  },
+  {
+    "id": "stack_blocks_by_language.layout0.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/stack_blocks_by_language.layout0.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/stack_blocks_by_language.layout0.seed0-execution_operation.png",
+        "meaning": "原记录的place操作阶段（step7459），按该时刻机器人及物体状态重建。",
+        "source_step": 7459
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/stack_blocks_by_language.layout0.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step8541）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 8541
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/stack_blocks_by_language.layout0.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 856,
+        "duration": 34.24,
+        "poster": "assets/stack_blocks_by_language.layout0.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 29.84,
+            "recorded_step": 7460
+          },
+          {
+            "label": "successful_run_end",
+            "time": 34.2,
+            "recorded_step": 8541
+          }
+        ],
+        "source_sha256": "b8caf666c48b58903ace45f08ea249eb459f92a7c14126dc10aa6cdc65053d44",
+        "output_sha256": "3b4edfda3f5705957ba029bef87a5f4a652c8fb89c289966e1fa2c6b4610fe5c",
+        "source_steps": [
+          1,
+          8541
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/stack_blocks_by_language.layout0.seed0-timing.json",
+        "captions": "assets/stack_blocks_by_language.layout0.seed0.vtt"
+      }
+    ],
+    "task_instruction": "stack the blocks from bottom to top in the order of blue, yellow, and orange, then reset the robot arm.",
+    "instruction_source": "Original run instruction"
+  },
+  {
+    "id": "deposit_coin.layout5.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/deposit_coin.layout5.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/deposit_coin.layout5.seed0-execution_operation.png",
+        "meaning": "原记录的lower_to_slot操作阶段（step2025），按该时刻机器人及物体状态重建。",
+        "source_step": 2025
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/deposit_coin.layout5.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step2887）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 2887
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/deposit_coin.layout5.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 290,
+        "duration": 11.6,
+        "poster": "assets/deposit_coin.layout5.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 8.08,
+            "recorded_step": 2020
+          },
+          {
+            "label": "successful_run_end",
+            "time": 11.56,
+            "recorded_step": 2887
+          }
+        ],
+        "source_sha256": "d35d8086eebe5d269f72f4646a30e54d44516704c882112dd28e2701696a9fe0",
+        "output_sha256": "3d27041ebcca42bf189aca4e7c4976ef0bc43ff85ae0b43944f13157edbec1ff",
+        "source_steps": [
+          1,
+          2887
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/deposit_coin.layout5.seed0-timing.json",
+        "captions": "assets/deposit_coin.layout5.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Deposit the coin in the container.",
+    "instruction_source": "Task-goal description"
+  },
+  {
+    "id": "solve_equation.layout15.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/solve_equation.layout15.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/solve_equation.layout15.seed0-execution_operation.png",
+        "meaning": "原记录的lower_to_pad操作阶段（step1665），按该时刻机器人及物体状态重建。",
+        "source_step": 1665
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/solve_equation.layout15.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step2627）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 2627
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/solve_equation.layout15.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 264,
+        "duration": 10.56,
+        "poster": "assets/solve_equation.layout15.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 6.64,
+            "recorded_step": 1660
+          },
+          {
+            "label": "successful_run_end",
+            "time": 10.52,
+            "recorded_step": 2627
+          }
+        ],
+        "source_sha256": "033216bae53ddca98be34cbff2225de149e876f74a2bf1726cae8b7978c3e2d7",
+        "output_sha256": "14b75ba285e8e7c91127a2906744adcaab8f9add64d509b90b213817b8336324",
+        "source_steps": [
+          1,
+          2627
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/solve_equation.layout15.seed0-timing.json",
+        "captions": "assets/solve_equation.layout15.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Complete the equation by selecting the correct missing number or operator and placing it on the pad, then reset the robot arm.",
+    "instruction_source": "Original run instruction"
+  },
+  {
+    "id": "press_by_number.layout3.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/press_by_number.layout3.seed0-task_start.png",
+        "meaning": "执行起始首条状态（step1，0.004仿真秒），非未记录的机器人step0。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/press_by_number.layout3.seed0-execution_operation.png",
+        "meaning": "原press_contact阶段（step12461）的记录状态。",
+        "source_step": 12461
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/press_by_number.layout3.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step13384）；序列完成由原事件及回执判断。",
+        "source_step": 13384
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/press_by_number.layout3.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 1340,
+        "duration": 53.6,
+        "poster": "assets/press_by_number.layout3.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 49.84,
+            "recorded_step": 12460
+          },
+          {
+            "label": "successful_run_end",
+            "time": 53.56,
+            "recorded_step": 13384
+          }
+        ],
+        "source_sha256": "8a71d27522ef1dfe25413b9c6b3bfa8b1d4d36c9a8941f17a9a415876d6002f0",
+        "output_sha256": "029a51b0ef57efdd2c457b95797c21f5a2daf24a3ace6b3e89fd85d9899f288b",
+        "source_steps": [
+          1,
+          13384
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/press_by_number.layout3.seed0-timing.json",
+        "captions": "assets/press_by_number.layout3.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Press the numbered controls in the required sequence.",
+    "instruction_source": "Task-goal description"
+  },
+  {
+    "id": "swap_blocks.layout2.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/swap_blocks.layout2.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step200）；准备开夹完成、首次搬运前。",
+        "source_step": 200
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/swap_blocks.layout2.seed0-execution_operation.png",
+        "meaning": "原记录的swap_place操作阶段（step9927），按该时刻机器人及物体状态重建。",
+        "source_step": 9927
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/swap_blocks.layout2.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step13015）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 13015
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/swap_blocks.layout2.seed0-events.mp4",
+        "kind": "Discrete recorded-event sequence",
+        "discrete": true,
+        "fps": 2.0,
+        "frames": 84,
+        "duration": 42.0,
+        "poster": "assets/swap_blocks.layout2.seed0-video-start.png",
+        "events": [
+          {
+            "label": "First recorded event",
+            "time": 0.0,
+            "recorded_step": 200
+          },
+          {
+            "label": "Recorded operation event",
+            "time": 31.0,
+            "recorded_step": 9927
+          },
+          {
+            "label": "successful_run_end",
+            "time": 41.5,
+            "recorded_step": 13015
+          }
+        ],
+        "source_sha256": "95e1f20d78e727e2ab17ac033e8723dca347ca89d5e835abde086524448970c9",
+        "output_sha256": "ef9e965a7e7926e04385bbcb84b9f01f9ab289ccd1e46d8eb4e3749a35df1158",
+        "source_steps": [
+          200,
+          13015
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/swap_blocks.layout2.seed0-timing.json",
+        "captions": "assets/swap_blocks.layout2.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Swap the two blocks using the empty mat, pressing the button after each move.",
+    "instruction_source": "Original run instruction",
+    "time_note": "84 discrete recorded events, beginning at step 200 (0.8 s) and ending at step 13015. The verified step-1 start state is shown separately below. Two events are displayed per second; unequal simulation intervals and intervening motion are not reconstructed."
+  },
+  {
+    "id": "play_tic_tac_toe.layout1.seed1",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/play_tic_tac_toe.layout1.seed1-task_start.png",
+        "meaning": "执行起始首条状态（step1，0.004仿真秒），非未记录的机器人step0。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/play_tic_tac_toe.layout1.seed1-execution_operation.png",
+        "meaning": "原tictactoe_place阶段（step16415）的记录状态。",
+        "source_step": 16415
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/play_tic_tac_toe.layout1.seed1-successful_run_end.png",
+        "meaning": "原成功运行终态（step17440）；序列完成由原事件及回执判断。",
+        "source_step": 17440
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/play_tic_tac_toe.layout1.seed1-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 1745,
+        "duration": 69.8,
+        "poster": "assets/play_tic_tac_toe.layout1.seed1-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 65.64,
+            "recorded_step": 16410
+          },
+          {
+            "label": "successful_run_end",
+            "time": 69.76,
+            "recorded_step": 17440
+          }
+        ],
+        "source_sha256": "0c6cb7e0639e0d8b4607c701a1c8dfb942e0223e07e4ce60369fd5f92d01ee30",
+        "output_sha256": "194250d1131300d898a758231733e282ed3a11c47c78fa61ae53426e948da372",
+        "source_steps": [
+          1,
+          17440
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/play_tic_tac_toe.layout1.seed1-timing.json",
+        "captions": "assets/play_tic_tac_toe.layout1.seed1.vtt"
+      }
+    ],
+    "task_instruction": "Play tic-tac-toe as the first player and fill the board with the opponent.",
+    "instruction_source": "Original run instruction"
+  },
+  {
+    "id": "build_tower.layout5.seed0",
+    "benchmark": "robodojo",
+    "frames": [
+      {
+        "role": "task_start",
+        "src": "assets/build_tower.layout5.seed0-task_start.png",
+        "meaning": "首条选定完整状态（step1）；执行开始的首条记录，不冒称机器人step0测量。",
+        "source_step": 1
+      },
+      {
+        "role": "execution_operation",
+        "src": "assets/build_tower.layout5.seed0-execution_operation.png",
+        "meaning": "原记录的place_on_support操作阶段（step28595），按该时刻机器人及物体状态重建。",
+        "source_step": 28595
+      },
+      {
+        "role": "successful_run_end",
+        "src": "assets/build_tower.layout5.seed0-successful_run_end.png",
+        "meaning": "原成功运行终态（step29557）；任务判定来自原回执，图片不单独证明动作序列或力学有效性。",
+        "source_step": 29557
+      }
+    ],
+    "videos": [
+      {
+        "role": "task",
+        "src": "media/build_tower.layout5.seed0-recorded-states.mp4",
+        "kind": "Recorded-state reconstruction",
+        "discrete": false,
+        "fps": 25,
+        "frames": 2957,
+        "duration": 118.28,
+        "poster": "assets/build_tower.layout5.seed0-video-start.png",
+        "events": [
+          {
+            "label": "task_start",
+            "time": 0.0,
+            "recorded_step": 1
+          },
+          {
+            "label": "execution_operation",
+            "time": 114.36,
+            "recorded_step": 28590
+          },
+          {
+            "label": "successful_run_end",
+            "time": 118.24,
+            "recorded_step": 29557
+          }
+        ],
+        "source_sha256": "04e67ad308ebc6119d6eb08f589479ad8cbfec3aee5545e846f11dd682e48cb1",
+        "output_sha256": "b0e949510aafbedc97815f5ea69b778cdef5ad0e89418305f5d06b1d5b78ae10",
+        "source_steps": [
+          1,
+          29557
+        ],
+        "simulator_hz": 250,
+        "timing": "assets/build_tower.layout5.seed0-timing.json",
+        "captions": "assets/build_tower.layout5.seed0.vtt"
+      }
+    ],
+    "task_instruction": "Build a tower using the wooden blocks and wooden boards.",
+    "instruction_source": "Original run instruction"
+  }
+]

@@ -1,0 +1,1386 @@
+{
+  "paper_version": "v0.31",
+  "records": [
+    {
+      "case_id": "handover_block.seed3032",
+      "role": "recovery",
+      "src": "media/handover_block.seed3032-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "frames": 1809,
+      "duration": 60.3,
+      "fps": 30.0,
+      "source_sha256": "b8bfc3f71867bbf7e8407905432f974f78240aa5b7091b36fd047f622bfa1bac",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 56.233333333333334
+        },
+        {
+          "label": "successful_run_end",
+          "time": 60.266666666666666
+        }
+      ],
+      "poster": "assets/handover_block.seed3032-video-start.png",
+      "source_scene_sha256": "c3e233a5fd3d075c7cd9a04568540413adfb2425657e29f50db1cfcb9df1556d",
+      "output_sha256": "0aabfa035bdb22fb839498c10e646bbbe9ce68efabcbb33b58f23548dcd67692",
+      "renderer_revision": "1f1ffc64f8b47816b8cee936dd3673c5f4965c59",
+      "original_recording": {
+        "src": "media/handover_block.seed3032-recovery.mp4",
+        "source_sha256": "135871cca3a70bae3be535542d99f3431ba692533a24b2956f55fdc7959d4694",
+        "output_sha256": "0654c73f7afe09e0aef2721659fd56cb05f102fb4708a2b94910cab20112b635",
+        "note": "Original observer camera; expanded recorded-state view is the main presentation."
+      },
+      "original_goal_fields": {
+        "planning_task_success": true,
+        "planning_native_goal": {
+          "schema_version": "rae.native_planning_goal.v1",
+          "stage": "planning",
+          "task_success": true
+        }
+      },
+      "goal_receipt_sha256": "41c5fd054b5136bc63f1c0b3b3e733b395feeeadc01186b22bf655ae97b6a79d",
+      "original_run": "seed3032_framework_explicit_terminal_pose_12h20261014",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        1808
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Original scene-record frame clock; not model or planning latency",
+      "camera": {
+        "view": "third_person_overview",
+        "fixed": true,
+        "back_offset_m": 0.25,
+        "height_offset_m": 0.15
+      },
+      "native_pixel_size": [
+        320,
+        240
+      ],
+      "editorial_changes": "32px source-label band; no crop, interpolation or task replay",
+      "state_transition_physics_steps": 0
+    },
+    {
+      "case_id": "hanging_mug.seed5057",
+      "role": "recovery",
+      "src": "media/hanging_mug.seed5057-recovery.mp4",
+      "kind": "Original recovery recording",
+      "frames": 219,
+      "duration": 7.3,
+      "fps": 30.0,
+      "source_sha256": "b47a008c5c351002d381eea7eb74bf0ecd47fb8e1e1082c6e4701b16d9a73222",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 6.766666666666667
+        },
+        {
+          "label": "successful_run_end",
+          "time": 7.266666666666667
+        }
+      ],
+      "output_sha256": "a8118c245e8078eb13603f191357be992c3e49200f1870e24d156d58324473e8",
+      "original_goal_fields": {
+        "planning_task_success": true
+      },
+      "goal_receipt_sha256": "89de6e415901ce8553c48376f1803488fd12344ca26085c1248800578baaf4d0",
+      "original_run": "seed5057_tableyaw20261010",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        218
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "A: original recording",
+      "time_basis": "Original recording clock; not model or planning latency",
+      "camera": "Original fixed external third_person_overview",
+      "editorial_changes": "Fast-start remux; no crop, interpolation or task replay"
+    },
+    {
+      "case_id": "pick_dual_bottles.seed48",
+      "role": "recovery",
+      "src": "media/pick_dual_bottles.seed48-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "frames": 2054,
+      "duration": 68.47,
+      "fps": 30.0,
+      "source_sha256": "69ff95ca7f4811c9ad685b97afc4e85d1a63224a6c556092b74f4c269541d375",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 67.33333333333334
+        },
+        {
+          "label": "successful_run_end",
+          "time": 68.43333333333334
+        }
+      ],
+      "output_sha256": "67ab8c8ac5b419acae8dd1612a978ce057fa67f6bd99851430baede7e4b4c03c",
+      "poster": "assets/pick_dual_bottles.seed48-video-start.png",
+      "source_scene_sha256": "5d001b1698f8662317e1ea8e309486910a22527eabcd63f3c54f05d16d949b58",
+      "renderer_revision": "1f1ffc64f8b47816b8cee936dd3673c5f4965c59",
+      "original_recording": {
+        "src": "media/pick_dual_bottles.seed48-recovery.mp4",
+        "source_sha256": "9fcce4443141d4f0eeae7244898986b6a74ccaf1bf70f3620e0af1b0a68e34a3",
+        "output_sha256": "46ae865096da4a901be8bda56da04c4046d1f393eeed77eeab1fcf365d8b9051",
+        "note": "Original observer camera; expanded recorded-state view is the main presentation."
+      },
+      "original_goal_fields": {
+        "planning_success_after": true
+      },
+      "goal_receipt_sha256": "bf54ac45fe02cada23ee65690ac7f6f7eb02fd48c2f6b7b5ec58c12c3257ce48",
+      "original_run": "seed48_acquired_pair_measured_terminal_transport_6he20261013",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        2053
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Original scene-record frame clock; not model or planning latency",
+      "camera": {
+        "view": "third_person_overview",
+        "fixed": true,
+        "back_offset_m": 0.35,
+        "height_offset_m": 0.35
+      },
+      "native_pixel_size": [
+        320,
+        240
+      ],
+      "editorial_changes": "32px source-label band; no crop, interpolation or task replay",
+      "state_transition_physics_steps": 0
+    },
+    {
+      "case_id": "stack_blocks_two.seed3017",
+      "role": "recovery",
+      "src": "media/stack_blocks_two.seed3017-recovery.mp4",
+      "kind": "Original recovery recording",
+      "frames": 173,
+      "duration": 5.77,
+      "fps": 30.0,
+      "source_sha256": "9c259c275654aab5d63a496ce5fb5becba3bd200081f2f9886b35490d7998f52",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 4.966666666666667
+        },
+        {
+          "label": "successful_run_end",
+          "time": 5.733333333333333
+        }
+      ],
+      "output_sha256": "5642068109e6858b1f48ef03a80e747fb3fc0718573011f7170ce58d773476bd",
+      "original_goal_fields": {
+        "planning_task_success": true,
+        "planning_success_after": true,
+        "planning_task_qualification": {
+          "contract_id": "stack_blocks_two.existing_phase_paths.v1",
+          "framework_integrity": {
+            "reasons": [],
+            "status": "PASS"
+          },
+          "hard_physical_status": "UNKNOWN",
+          "legacy_task_success": true,
+          "schema_version": "rae.teacher_path_qualification.v1",
+          "stage": "planning",
+          "status": "PASS",
+          "task_success": true
+        }
+      },
+      "goal_receipt_sha256": "eae05b6465177f6b03f34605337c00a5964bf08249fc3fbb2d98451d87f59e44",
+      "original_run": "seed3017_followup1",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        172
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "A: original recording",
+      "time_basis": "Original recording clock; not model or planning latency",
+      "camera": "Original fixed external third_person_overview",
+      "editorial_changes": "Fast-start remux; no crop, interpolation or task replay"
+    },
+    {
+      "case_id": "open_microwave.seed4023",
+      "role": "recovery",
+      "src": "media/open_microwave.seed4023-recovery.mp4",
+      "kind": "Original recovery recording",
+      "frames": 306,
+      "duration": 10.2,
+      "fps": 30.0,
+      "source_sha256": "bf2f6696a804988b490ff3eeb8b812ba8520abf773d0d7bb65d9bb87627436c0",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 7.466666666666667
+        },
+        {
+          "label": "successful_run_end",
+          "time": 10.166666666666666
+        }
+      ],
+      "output_sha256": "3f79e4ac36d71af880ef6990ef0a07b09f14143e4aee39b2f358737dae798aa0",
+      "original_goal_fields": {
+        "planning_task_success": true,
+        "planning_success_after": true,
+        "planning_task_qualification": {
+          "contract_id": "open_microwave.existing_phase_paths.v1",
+          "framework_integrity": {
+            "reasons": [],
+            "status": "PASS"
+          },
+          "hard_physical_status": "UNKNOWN",
+          "legacy_task_success": true,
+          "schema_version": "rae.teacher_path_qualification.v1",
+          "stage": "planning",
+          "status": "PASS",
+          "task_success": true,
+          "task_target_fraction": 0.6,
+          "teacher_margin_success": true,
+          "teacher_margin_target_fraction": 0.7
+        }
+      },
+      "goal_receipt_sha256": "1bc4fff8716b2f007617e080839e276dbad0d0500742d7cac33639cdc875610c",
+      "original_run": "seed4023_first",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        305
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "A: original recording",
+      "time_basis": "Original recording clock; not model or planning latency",
+      "camera": "Original fixed external third_person_overview",
+      "editorial_changes": "Fast-start remux; no crop, interpolation or task replay"
+    },
+    {
+      "case_id": "lift_pot.seed7187",
+      "role": "recovery",
+      "src": "media/lift_pot.seed7187-recovery.mp4",
+      "kind": "Original recovery recording",
+      "frames": 264,
+      "duration": 8.8,
+      "fps": 30.0,
+      "source_sha256": "54fa2e8852c8f104e95e76a350a83b7c8f47f6afe9101b536032ab5628a337a0",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 8.166666666666666
+        },
+        {
+          "label": "successful_run_end",
+          "time": 8.766666666666667
+        }
+      ],
+      "output_sha256": "3bf97ce7e9408223ddfc976e931b12d57ee411beebbe2c5e4181d7166d54c4f2",
+      "original_goal_fields": {
+        "planning_task_success": true,
+        "planning_task_qualification": {
+          "framework_integrity": {
+            "reasons": [],
+            "status": "PASS"
+          },
+          "hard_physical_status": "UNKNOWN",
+          "legacy_task_success": true,
+          "schema_version": "rae.lift_pot_one_handle_native_recovery.v1",
+          "stability": "UNTESTED",
+          "stage": "planning",
+          "status": "PASS",
+          "task_success": true
+        }
+      },
+      "goal_receipt_sha256": "e49a8aba33c12224b2718a66161af96795a037c869a2a6e85ad94a21049b85f3",
+      "original_run": "live_handle_reobservation_before_dual_close",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        263
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "A: original recording",
+      "time_basis": "Original recording clock; not model or planning latency",
+      "camera": "Original fixed external third_person_overview",
+      "editorial_changes": "Fast-start remux; no crop, interpolation or task replay"
+    },
+    {
+      "case_id": "shake_bottle_horizontally.seed6020",
+      "role": "recovery",
+      "src": "media/shake_bottle_horizontally.seed6020-recovery.mp4",
+      "kind": "Original recovery recording",
+      "frames": 221,
+      "duration": 7.37,
+      "fps": 30.0,
+      "source_sha256": "6161a35f1f8df1f544fa88b9ff53b181ae53ce70491a97e86ca000006bf7de1a",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 3.9
+        },
+        {
+          "label": "successful_run_end",
+          "time": 7.333333333333333
+        },
+        {
+          "label": "motion_context",
+          "time": 3.433333333333333
+        },
+        {
+          "label": "motion_context",
+          "time": 4.4
+        }
+      ],
+      "output_sha256": "6c4356a71e13ec20f2f685f98310b4aa9ce00c4a9f7666431fbe8a5a9e38f8b6",
+      "original_goal_fields": {
+        "planning_task_success": true,
+        "planning_task_qualification": {
+          "contract_id": "shake_bottle_horizontally.existing_phase_paths.v1",
+          "framework_integrity": {
+            "reasons": [],
+            "status": "PASS"
+          },
+          "hard_physical_status": "UNKNOWN",
+          "legacy_task_success": true,
+          "schema_version": "rae.teacher_path_qualification.v1",
+          "stage": "planning",
+          "status": "PASS",
+          "task_success": true
+        }
+      },
+      "goal_receipt_sha256": "12f2d54f8cee0531d21ba156bc59c742efb2274f161c62de1f5fa12fbedbfb10",
+      "original_run": "seed6020_followup1",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        220
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "A: original recording",
+      "time_basis": "Original recording clock; not model or planning latency",
+      "camera": "Original fixed external third_person_overview",
+      "editorial_changes": "Fast-start remux; no crop, interpolation or task replay"
+    },
+    {
+      "case_id": "open_laptop.seed1042",
+      "role": "recovery",
+      "src": "media/open_laptop.seed1042-recovery.mp4",
+      "kind": "Original recovery recording",
+      "frames": 110,
+      "duration": 3.67,
+      "fps": 30.0,
+      "source_sha256": "a62a2f97c91fa0e6b73ed0cc95164ea1d7870f66466178ff901437725d63f2f1",
+      "events": [
+        {
+          "label": "restored_failure_start",
+          "time": 0.0
+        },
+        {
+          "label": "recovery_operation",
+          "time": 1.4666666666666666
+        },
+        {
+          "label": "successful_run_end",
+          "time": 3.6333333333333333
+        }
+      ],
+      "output_sha256": "aba92f9abf1508ab1580364da2bbad3f9db0d9373b9177ac06b85d44dc7cd5af",
+      "original_goal_fields": {
+        "planning_task_success": true,
+        "planning_success_after": true
+      },
+      "goal_receipt_sha256": "880822458bea35e33defd8255d651547b46d440bb3df353108ca232ffd32ee5c",
+      "original_run": "seed1042_first",
+      "source_policy_video": "unavailable from inspected measured-state records; verified initial/failure snapshots provided",
+      "inventory_scope": "selected successful task case",
+      "source_frame_range": [
+        0,
+        109
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "A: original recording",
+      "time_basis": "Original recording clock; not model or planning latency",
+      "camera": "Original fixed external third_person_overview",
+      "editorial_changes": "Fast-start remux; no crop, interpolation or task replay"
+    },
+    {
+      "case_id": "play_stacking_toy.layout6.seed0",
+      "role": "task",
+      "src": "media/play_stacking_toy.layout6.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 1530,
+      "duration": 61.2,
+      "poster": "assets/play_stacking_toy.layout6.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 59.2,
+          "recorded_step": 14800
+        },
+        {
+          "label": "successful_run_end",
+          "time": 61.16,
+          "recorded_step": 15288
+        }
+      ],
+      "source_sha256": "e7e870b0fa4f18f0bbb91d87c5f8185ea7a14027d81373fe9b1cb64832882403",
+      "output_sha256": "bc7786cb309e154ccbaf0fc365f5420673586a3c7c1df1b9c105e82ed940d01d",
+      "source_steps": [
+        1,
+        15288
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/play_stacking_toy.layout6.seed0-timing.json",
+      "captions": "assets/play_stacking_toy.layout6.seed0.vtt",
+      "original_run": "rectangular_support_v11_L5L6",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "671ea25155c60548807d4cadc5d3bd6bbfce69b4f1366d7a5134bd1d31787b24",
+        "controls.jsonl": "e17f285346ff14779f5549f83caaa243f51dbace71a15a1faac73d4a2b7e97e7",
+        "phases.json": "2dadee7540ce7e568a9b12b83a1b8ecebc459c9a38a84cc170b49995d5cac4b4"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": null,
+      "original_control_horizon": null,
+      "recorded_physics_steps": 15288,
+      "source_frame_range": [
+        0,
+        1529
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "insert_tubes.layout6.seed0",
+      "role": "task",
+      "src": "media/insert_tubes.layout6.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 1413,
+      "duration": 56.52,
+      "poster": "assets/insert_tubes.layout6.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 50.52,
+          "recorded_step": 12630
+        },
+        {
+          "label": "successful_run_end",
+          "time": 56.48,
+          "recorded_step": 14120
+        }
+      ],
+      "source_sha256": "471b863c125c263205def4c7d4f766088500b15ed66288e7ac43f49d32de5fed",
+      "output_sha256": "851a8f9030129574f59d35acf308560e0bdf479727fedc6a92bcce9935137ac7",
+      "source_steps": [
+        1,
+        14120
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/insert_tubes.layout6.seed0-timing.json",
+      "captions": "assets/insert_tubes.layout6.seed0.vtt",
+      "original_run": "tube_reverse_same_holes_L6",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "33d93f8704fc136f8d69c78e8db57aea9f63e324de65016555dc5d86f7a7fd9e",
+        "controls.jsonl": "17f6d4387a4dfd59d1431f97975a89d26db915537548017294ed7099cc6f50aa",
+        "phases.json": "a0966c2e1177c6d7ce5e786d82ed07fd8e020ea0955c91a7a0f3a9c66d753d85"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "83cd5ffafd1207a3c0eef332e79f5332259cffa6",
+      "original_control_horizon": 5000,
+      "recorded_physics_steps": 14120,
+      "source_frame_range": [
+        0,
+        1412
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "store_tools_in_toolbox.layout15.seed0",
+      "role": "task",
+      "src": "media/store_tools_in_toolbox.layout15.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 1078,
+      "duration": 43.12,
+      "poster": "assets/store_tools_in_toolbox.layout15.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 39.16,
+          "recorded_step": 9790
+        },
+        {
+          "label": "successful_run_end",
+          "time": 43.08,
+          "recorded_step": 10768
+        }
+      ],
+      "source_sha256": "80362fd576e2c1330febecffb8216d69ab48b054ecd0487921dcb0f46562c242",
+      "output_sha256": "b7e19358ae4c4b45b3f3b3007116b0eec4bb5734939ac5e7acb1238b6c955a20",
+      "source_steps": [
+        1,
+        10768
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/store_tools_in_toolbox.layout15.seed0-timing.json",
+      "captions": "assets/store_tools_in_toolbox.layout15.seed0.vtt",
+      "original_run": "toolbox_L15_seed0_frozen20mm_round2b_20261011",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "23e7730a1b33350fac0d3e01251bed6bccf71a5c8b5d0cf6afe96c7802be6718",
+        "controls.jsonl": "540a0390138e1dfa8d2b9247eee5a1b7b4edb4888f46d28f40663ecbacc62484",
+        "phases.json": "c4e3f4eccab5c8e2c57ebad581c5404a02e38859cc34159e7e860ab3b13ead5a"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "37b64071da0184c4ef55f2fd5d2d476432fafb0e",
+      "original_control_horizon": 9000,
+      "recorded_physics_steps": 10768,
+      "source_frame_range": [
+        0,
+        1077
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "play_Xylophone.layout0.seed0",
+      "role": "task",
+      "src": "media/play_Xylophone.layout0.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 554,
+      "duration": 22.16,
+      "poster": "assets/play_Xylophone.layout0.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 21.88,
+          "recorded_step": 5470
+        },
+        {
+          "label": "successful_run_end",
+          "time": 22.12,
+          "recorded_step": 5526
+        }
+      ],
+      "source_sha256": "41a392bbed2870fcb89acbb59cc00dfd630b672741ee470cad7e8065a88f34af",
+      "output_sha256": "57e39652b2598625ebf01cd756fd276dddb17422a759668afb58f7e1f719db13",
+      "source_steps": [
+        1,
+        5526
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/play_Xylophone.layout0.seed0-timing.json",
+      "captions": "assets/play_Xylophone.layout0.seed0.vtt",
+      "original_run": "xylophone_seed0_L0_surface_v3_20261008",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "6ea159e4c3ec780b794465e41cdd7274d6820c86cf9966acfcdfee92eda88eb5",
+        "controls.jsonl": "5ae1f3d204d305024ed548ee52865600fb7c7beb809caf9cecd9ecad0390923b",
+        "phases.json": "1959bc2641dba1fa99fbfae46a0f299518b9e8379156869270edca42ce39248d",
+        "task_history.jsonl": "f64ff1f7bb38c6e39a807f1d679af7838ac581237e2fb1e43ac7a6a1999ebc75"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "d0756be12ad839687d4520239d7badc3407455a6",
+      "original_control_horizon": 5000,
+      "recorded_physics_steps": 5526,
+      "source_frame_range": [
+        0,
+        553
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "stack_blocks_by_language.layout0.seed0",
+      "role": "task",
+      "src": "media/stack_blocks_by_language.layout0.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 856,
+      "duration": 34.24,
+      "poster": "assets/stack_blocks_by_language.layout0.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 29.84,
+          "recorded_step": 7460
+        },
+        {
+          "label": "successful_run_end",
+          "time": 34.2,
+          "recorded_step": 8541
+        }
+      ],
+      "source_sha256": "b8caf666c48b58903ace45f08ea249eb459f92a7c14126dc10aa6cdc65053d44",
+      "output_sha256": "3b4edfda3f5705957ba029bef87a5f4a652c8fb89c289966e1fa2c6b4610fe5c",
+      "source_steps": [
+        1,
+        8541
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/stack_blocks_by_language.layout0.seed0-timing.json",
+      "captions": "assets/stack_blocks_by_language.layout0.seed0.vtt",
+      "original_run": "ordered_seed0_L0_v2_20261008",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "2b1b1edecfa804248d6d635d0e5c7bd6766c928204a90d222a7f086229d375a9",
+        "controls.jsonl": "aa1c1f4533e829c9a7906f6f679c58adcaf3a6c4de3c77964c5dd80e39f6efd2",
+        "phases.json": "2eb7445b2e5bc2c492757ab89390d4d478377c9de54b855d8c6e8303c882189a"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "9f55aed4684cbf374e26bcc990e2fc51e421c49f",
+      "original_control_horizon": 4000,
+      "recorded_physics_steps": 8541,
+      "source_frame_range": [
+        0,
+        855
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "deposit_coin.layout5.seed0",
+      "role": "task",
+      "src": "media/deposit_coin.layout5.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 290,
+      "duration": 11.6,
+      "poster": "assets/deposit_coin.layout5.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 8.08,
+          "recorded_step": 2020
+        },
+        {
+          "label": "successful_run_end",
+          "time": 11.56,
+          "recorded_step": 2887
+        }
+      ],
+      "source_sha256": "d35d8086eebe5d269f72f4646a30e54d44516704c882112dd28e2701696a9fe0",
+      "output_sha256": "3d27041ebcca42bf189aca4e7c4976ef0bc43ff85ae0b43944f13157edbec1ff",
+      "source_steps": [
+        1,
+        2887
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/deposit_coin.layout5.seed0-timing.json",
+      "captions": "assets/deposit_coin.layout5.seed0.vtt",
+      "original_run": "coin_L5_seed0_sameside_edge_round3_20261011",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "6d12b7fa461cf00aaa01fc13ddb9aca55f9afcb313d28a5722b2fc07c2d7d1ca",
+        "controls.jsonl": "95add77811bade0a6431e24332786a705232a61ad46801f3a0c1b56a55ade4ed",
+        "phases.json": "52bb55fc42c612e583ea043d01c93bf9d625c09ba6a5a2f98e12b22c501c118e"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "50866cadcb23845fdc6fad08b915c10469762961",
+      "original_control_horizon": 3000,
+      "recorded_physics_steps": 2887,
+      "source_frame_range": [
+        0,
+        289
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "solve_equation.layout15.seed0",
+      "role": "task",
+      "src": "media/solve_equation.layout15.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 264,
+      "duration": 10.56,
+      "poster": "assets/solve_equation.layout15.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 6.64,
+          "recorded_step": 1660
+        },
+        {
+          "label": "successful_run_end",
+          "time": 10.52,
+          "recorded_step": 2627
+        }
+      ],
+      "source_sha256": "033216bae53ddca98be34cbff2225de149e876f74a2bf1726cae8b7978c3e2d7",
+      "output_sha256": "14b75ba285e8e7c91127a2906744adcaab8f9add64d509b90b213817b8336324",
+      "source_steps": [
+        1,
+        2627
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/solve_equation.layout15.seed0-timing.json",
+      "captions": "assets/solve_equation.layout15.seed0.vtt",
+      "original_run": "equation_L15_seed0_tilt_short_window6_20261011",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "4aa92eb53b03f02dbd6a0ce40729aa2dcb35ed8de83ac8c4bb45604bacb48f74",
+        "controls.jsonl": "253a4581d4976388b0da39ca5a196124dcb338816306467caf09563c89d51dcf",
+        "phases.json": "b822ec5ff0ba58ea99ce24d78d9248e4164baf3b2199b51caa71c2da3ef1806d"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "5ffb186bdd6d197ce8d56fabfe52f4771def84ee",
+      "original_control_horizon": 3000,
+      "recorded_physics_steps": 2627,
+      "source_frame_range": [
+        0,
+        263
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "press_by_number.layout3.seed0",
+      "role": "task",
+      "src": "media/press_by_number.layout3.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 1340,
+      "duration": 53.6,
+      "poster": "assets/press_by_number.layout3.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 49.84,
+          "recorded_step": 12460
+        },
+        {
+          "label": "successful_run_end",
+          "time": 53.56,
+          "recorded_step": 13384
+        }
+      ],
+      "source_sha256": "8a71d27522ef1dfe25413b9c6b3bfa8b1d4d36c9a8941f17a9a415876d6002f0",
+      "output_sha256": "029a51b0ef57efdd2c457b95797c21f5a2daf24a3ace6b3e89fd85d9899f288b",
+      "source_steps": [
+        1,
+        13384
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/press_by_number.layout3.seed0-timing.json",
+      "captions": "assets/press_by_number.layout3.seed0.vtt",
+      "original_run": "press_L3_seed0_frozen_switch_clear_usd_20261012",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "22cced145befd5724f6a488a83b732841d73e19591ea6bcbc763a3c38fe51410",
+        "controls.jsonl": "6fa3e8532c6e2f726579806947aba938c7c35b202a9de43ebf108bbd93938911",
+        "phases.json": "70afddd06120e915b167e38e6797226a12e8db10a34374c69c38af9bc6594cac",
+        "task_history.jsonl": "0b4dc6bf5b8b1b9b2c202114e5d02ac2859f8e9a4d7b99f7670a848699f07fa8"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "841fe6f15772636d8ca7491cedb967e1c18d4d08",
+      "original_control_horizon": 7000,
+      "recorded_physics_steps": 13384,
+      "source_frame_range": [
+        0,
+        1339
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "swap_blocks.layout2.seed0",
+      "role": "task",
+      "src": "media/swap_blocks.layout2.seed0-events.mp4",
+      "kind": "Discrete recorded-event sequence",
+      "discrete": true,
+      "fps": 2.0,
+      "frames": 84,
+      "duration": 42.0,
+      "poster": "assets/swap_blocks.layout2.seed0-video-start.png",
+      "events": [
+        {
+          "label": "First recorded event",
+          "time": 0.0,
+          "recorded_step": 200
+        },
+        {
+          "label": "Recorded operation event",
+          "time": 31.0,
+          "recorded_step": 9927
+        },
+        {
+          "label": "successful_run_end",
+          "time": 41.5,
+          "recorded_step": 13015
+        }
+      ],
+      "source_sha256": "95e1f20d78e727e2ab17ac033e8723dca347ca89d5e835abde086524448970c9",
+      "output_sha256": "ef9e965a7e7926e04385bbcb84b9f01f9ab289ccd1e46d8eb4e3749a35df1158",
+      "source_steps": [
+        200,
+        13015
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/swap_blocks.layout2.seed0-timing.json",
+      "captions": "assets/swap_blocks.layout2.seed0.vtt",
+      "original_run": "swap_L2_seed0_transfer2_select6_round2_20261013",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "f1e12e5d882c0978bd5e60db4cd86142187293a95c5330ee2b8e970b9bc9b450",
+        "controls.jsonl": "9f592b69f33d435209a99beb771c97ed531f23740da4dbcedf4fa7804e5885f5",
+        "phases.json": "dc39dcdd9fcb57fb13bf6543a451ddf55c0c7643943a2fa4182d72e3eb3f30d2"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "14a33088183aec287f5882c6130215aa71299e91",
+      "original_control_horizon": 7000,
+      "recorded_physics_steps": 13015,
+      "source_frame_range": [
+        0,
+        83
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "C: discrete event snapshots",
+      "time_basis": "Two recorded events per display second; original intervals vary; exact steps in timing sidecar",
+      "source_coverage_note": "84 discrete recorded events, beginning at step 200 (0.8 s) and ending at step 13015. The verified step-1 start state is shown separately below. Two events are displayed per second; unequal simulation intervals and intervening motion are not reconstructed."
+    },
+    {
+      "case_id": "play_tic_tac_toe.layout1.seed1",
+      "role": "task",
+      "src": "media/play_tic_tac_toe.layout1.seed1-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 1745,
+      "duration": 69.8,
+      "poster": "assets/play_tic_tac_toe.layout1.seed1-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 65.64,
+          "recorded_step": 16410
+        },
+        {
+          "label": "successful_run_end",
+          "time": 69.76,
+          "recorded_step": 17440
+        }
+      ],
+      "source_sha256": "0c6cb7e0639e0d8b4607c701a1c8dfb942e0223e07e4ce60369fd5f92d01ee30",
+      "output_sha256": "194250d1131300d898a758231733e282ed3a11c47c78fa61ae53426e948da372",
+      "source_steps": [
+        1,
+        17440
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/play_tic_tac_toe.layout1.seed1-timing.json",
+      "captions": "assets/play_tic_tac_toe.layout1.seed1.vtt",
+      "original_run": "tictactoe_seed1_L1_v1_20261009",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "35e2e330fe3bda8f57a44789ef80a6d588e132ddbb79af94d772e3da6a2ae2e0",
+        "controls.jsonl": "48095909caed91ea048b3e31998edcd7c4aa2d4340b39cfed2d6435a87ce1c5a",
+        "phases.json": "69344f0aea695caa7c12f014af783b6452710020f93f3116fe31e2d68d0911ec"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "445edd8d05aeb80c4f8f9eee8571c379e3626a52",
+      "original_control_horizon": 11000,
+      "recorded_physics_steps": 17440,
+      "source_frame_range": [
+        0,
+        1744
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "build_tower.layout5.seed0",
+      "role": "task",
+      "src": "media/build_tower.layout5.seed0-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 2957,
+      "duration": 118.28,
+      "poster": "assets/build_tower.layout5.seed0-video-start.png",
+      "events": [
+        {
+          "label": "task_start",
+          "time": 0.0,
+          "recorded_step": 1
+        },
+        {
+          "label": "execution_operation",
+          "time": 114.36,
+          "recorded_step": 28590
+        },
+        {
+          "label": "successful_run_end",
+          "time": 118.24,
+          "recorded_step": 29557
+        }
+      ],
+      "source_sha256": "04e67ad308ebc6119d6eb08f589479ad8cbfec3aee5545e846f11dd682e48cb1",
+      "output_sha256": "b0e949510aafbedc97815f5ea69b778cdef5ad0e89418305f5d06b1d5b78ae10",
+      "source_steps": [
+        1,
+        29557
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/build_tower.layout5.seed0-timing.json",
+      "captions": "assets/build_tower.layout5.seed0.vtt",
+      "original_run": "tower_frozen_L5_seed0_eleventh_round3_20261013",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "dfeedb84624a87b8ca3250af39b7078379059b4feff68a008dbb7834541108dc",
+        "controls.jsonl": "ed736d0fbc57a614b30c711e01834b794dec9bd3814ab0ca8770460f158c601c",
+        "phases.json": "4408b1f9f04caf4393b1ca0fc08116bba890a52d855d5e4b3e5f7e5a5decb3c3"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "selected successful task case",
+      "original_execution_code_revision": "cb7eb02b164b08283fd9db6f65515063e23284a2",
+      "original_control_horizon": 10500,
+      "recorded_physics_steps": 29557,
+      "source_frame_range": [
+        0,
+        2956
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "l1_failure",
+      "role": "task",
+      "src": "media/l1_failure-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 542,
+      "duration": 21.68,
+      "poster": "assets/l1_failure-video-start.png",
+      "events": [],
+      "source_sha256": "0691713e9e2aea011822402dab31113383220c59a9591d937e9259c61f7e67e1",
+      "output_sha256": "c617f0d85dba2e8b134431fc5e741cb76fc906c2f5642106f6a4c7e1d6807842",
+      "source_steps": [
+        1,
+        5404
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l1_failure-timing.json",
+      "captions": "assets/l1_failure.vtt",
+      "original_run": "xylophone_key7_observe_L1_seed0_fiftysecond_20261016_24h",
+      "original_native_success": false,
+      "source_hashes": {
+        "receipt.json": "17358529667c015e95a3bda10fd06f0aed7a4e023e17ca56a8fad57e278165c3",
+        "controls.jsonl": "3a6b07cb5ff71e9e69fcb18a454d2ed67a2bc675ec41387700025bb48db250e5",
+        "phases.json": "8da762689361d75266258ba81494a9dff6a3685ccc18db1fdd82ee2827b97496",
+        "task_history.jsonl": "45042c46e1a699b9f5bb02a09093e49909e76321c3c01698a54a464dcf1dee1f"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "separate historical mechanism run; inventory membership not implied",
+      "original_execution_code_revision": "29a7b1b86be856f2f175d285f0b635a126e7b639",
+      "original_control_horizon": 5000,
+      "recorded_physics_steps": 5404,
+      "source_frame_range": [
+        0,
+        541
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "l1_success",
+      "role": "task",
+      "src": "media/l1_success-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 592,
+      "duration": 23.68,
+      "poster": "assets/l1_success-video-start.png",
+      "events": [],
+      "source_sha256": "9c01493e7f8f94a0115f20f7d49aae79e9ce6cd4a8ab72e326ec8622d44deaf9",
+      "output_sha256": "19cc3ca91bb11663431748f20b0bc643e0a0d3f8a8769099e3329d823046df32",
+      "source_steps": [
+        1,
+        5906
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l1_success-timing.json",
+      "captions": "assets/l1_success.vtt",
+      "original_run": "xylophone_radial_L1_seed0_fiftyfifth_20261016_24h",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "cbb267579cfee1fe26f4a7b3ed53053b166dd5b03deef576b03f0ddf9fb5afc1",
+        "controls.jsonl": "f7af2c7faef66bb6ee7bd4a2a514a0bfb1748214fc4c5c71f0ac95981f4b7fef",
+        "phases.json": "1983848a0b386ec6763c293f7c7c6afa2ab848b20cffee92018825b4fb20de90",
+        "task_history.jsonl": "a248f50e1ccb2efb0c46bc79d91268b6834dfecb2bac3e6463385fa94c763f2a"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "separate historical mechanism run; inventory membership not implied",
+      "original_execution_code_revision": "496983a62c14dfef0f5a557cd8a4fb0f0b69f367",
+      "original_control_horizon": 5000,
+      "recorded_physics_steps": 5906,
+      "source_frame_range": [
+        0,
+        591
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "l14_success",
+      "role": "task",
+      "src": "media/l14_success-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 596,
+      "duration": 23.84,
+      "poster": "assets/l14_success-video-start.png",
+      "events": [],
+      "source_sha256": "1a37f5363d3864beb767dc304a35ab5f510714e9a600dc1a7b582bf01f87eaf4",
+      "output_sha256": "270944f6ce163f2554016fcdda86432a6a6512bdc8b0577668871277ccb5e9c5",
+      "source_steps": [
+        1,
+        5946
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l14_success-timing.json",
+      "captions": "assets/l14_success.vtt",
+      "original_run": "xylophone_radial_L14_seed0_sixtysecond_20261016_24h",
+      "original_native_success": true,
+      "source_hashes": {
+        "receipt.json": "a234c04f2e3a9f2ea94bdba545b8c114a3b49606bec88c0f5ffdac526944a047",
+        "controls.jsonl": "f773336bcf9f30ebbe149ba9162a0d6e4934fb3a922abd347eefe9aa5fbf12bf",
+        "phases.json": "d842f590bae7f12e7be807f53a794de0328eb25397bc367ca2a25d6e6b5611b1",
+        "task_history.jsonl": "3ad496e91e7dcfdc9a85c1a08289db9eaeca8bc895e623a0925f21bbffcd6dad"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "separate historical mechanism run; inventory membership not implied",
+      "original_execution_code_revision": "15cb6de693c8f6c8a96b7f538c8c61e3d5682c93",
+      "original_control_horizon": 5000,
+      "recorded_physics_steps": 5946,
+      "source_frame_range": [
+        0,
+        595
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    },
+    {
+      "case_id": "l11_failure",
+      "role": "task",
+      "src": "media/l11_failure-recorded-states.mp4",
+      "kind": "Recorded-state reconstruction",
+      "discrete": false,
+      "fps": 25,
+      "frames": 528,
+      "duration": 21.12,
+      "poster": "assets/l11_failure-video-start.png",
+      "events": [],
+      "source_sha256": "cde693e3b7eaa239d67eb8f19fe296343d7fc1084022fde875aa60f47860f4d2",
+      "output_sha256": "8d8202c2e9d0e46e85b384c1c14dd9ce3d3d078c4175e38b256e73ebfc8a1f27",
+      "source_steps": [
+        1,
+        5264
+      ],
+      "simulator_hz": 250,
+      "timing": "assets/l11_failure-timing.json",
+      "captions": "assets/l11_failure.vtt",
+      "original_run": "xylophone_radial_L11_seed0_sixtieth_20261016_24h",
+      "original_native_success": false,
+      "source_hashes": {
+        "receipt.json": "e0fc24302c3c94ca81f88d4c1dde98773b3293ad326d12c608563a57e8e93b9e",
+        "controls.jsonl": "e9dfc2c71a66b73afaf85cfd4eb9e753205cee4bcf1e778c9269ee07076b5681",
+        "phases.json": "c034f511fd5b2b72d87f0fbb191ca4a91da83c5b90db4fd19536cb1e3c3cd909",
+        "task_history.jsonl": "e14d11a78c9c88659adbae311143abdedf1d9ce57733207a67bf5a6734c1902a"
+      },
+      "camera": "fixed external third_person_overview",
+      "frame_size": [
+        640,
+        512
+      ],
+      "native_pixel_size": [
+        640,
+        480
+      ],
+      "editorial_changes": "32px source-label band; no cropping, motion interpolation or task replay",
+      "inventory_scope": "separate historical mechanism run; inventory membership not implied",
+      "original_execution_code_revision": "15cb6de693c8f6c8a96b7f538c8c61e3d5682c93",
+      "original_control_horizon": 5000,
+      "recorded_physics_steps": 5264,
+      "source_frame_range": [
+        0,
+        527
+      ],
+      "playback_speed": 1,
+      "editorial_cuts": [],
+      "source_class": "B: measured-state reconstruction",
+      "time_basis": "Recorded simulation sampling"
+    }
+  ],
+  "success_asset_inventory_revision": "ad5ce42c503ba40eaf33f34ad0572ce219fecbb0",
+  "inventory_note": "The fixed revision identifies the successful-case asset inventory. Additional mechanism runs are separately bound by run identity and original file hashes; the revision does not imply their inventory membership.",
+  "interpretation": "Website derivatives of selected existing records. No new task-solving trial; goal verdicts come from original receipts, not from reconstruction."
+}

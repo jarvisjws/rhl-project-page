@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504pt" height="213pt" viewBox="0 0 504 213"><rect width="504" height="213" fill="white"/>
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#20303c"/></marker></defs>
+<text x="10" y="16" font-family="Times New Roman, Times, serif" font-size="12" fill="#20303c" font-weight="700" text-anchor="start">Revise the solution; preserve the task</text>
+<rect x="10" y="28" width="484" height="29" rx="5" fill="#edf5fa" stroke="#c6d0d6"/>
+<text x="252" y="47" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="400" text-anchor="middle">Fixed: task goal + success criterion + declared constraints</text>
+<rect x="10" y="73" width="144" height="64" rx="5" fill="#f3f6f8" stroke="#c6d0d6"/>
+<text x="20" y="90" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Execution feedback</text>
+<text x="20" y="107" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">What failed?</text>
+<text x="20" y="119" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Which condition is unmet?</text>
+<rect x="180" y="73" width="144" height="64" rx="5" fill="#f3f6f8" stroke="#c6d0d6"/>
+<text x="190" y="90" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Executable revision</text>
+<text x="190" y="107" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Change a relation,</text>
+<text x="190" y="119" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">preparation or procedure.</text>
+<rect x="350" y="73" width="144" height="64" rx="5" fill="#f3f6f8" stroke="#c6d0d6"/>
+<text x="360" y="90" font-family="Times New Roman, Times, serif" font-size="10" fill="#20303c" font-weight="700" text-anchor="start">Evaluated attempt</text>
+<text x="360" y="107" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Use current state.</text>
+<text x="360" y="119" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Check the original goal.</text>
+<line x1="154.0" y1="105.0" x2="180.0" y2="105.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="180,105 175.0,102.5 175.0,107.5" fill="#20303c"/>
+<line x1="324.0" y1="105.0" x2="350.0" y2="105.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="350,105 345.0,102.5 345.0,107.5" fill="#20303c"/>
+<line x1="422.0" y1="137.0" x2="422.0" y2="151.0" stroke="#20303c" stroke-width="1"/>
+<line x1="422.0" y1="151.0" x2="82.0" y2="151.0" stroke="#20303c" stroke-width="1"/>
+<line x1="82.0" y1="151.0" x2="82.0" y2="137.0" stroke="#20303c" stroke-width="1"/>
+<polygon points="82,137 79.5,142.0 84.5,142.0" fill="#20303c"/>
+<text x="105" y="165" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="start">Unresolved: inspect feedback and revise again</text>
+<rect x="10" y="179" width="484" height="25" rx="5" fill="#eff7f3" stroke="#c6d0d6"/>
+<text x="252" y="195" font-family="Times New Roman, Times, serif" font-size="9" fill="#20303c" font-weight="400" text-anchor="middle">Retain a procedure → instantiate on another case → evaluate its outcome</text>
+</svg>

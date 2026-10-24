@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.500
+Recorded event / step 200 / 0.80 s simulation | swap open
+
+00:00:00.500 --> 00:00:01.000
+Recorded event / step 621 / 2.48 s simulation | swap above
+
+00:00:01.000 --> 00:00:01.500
+Recorded event / step 681 / 2.72 s simulation | swap above settle
+
+00:00:01.500 --> 00:00:02.000
+Recorded event / step 842 / 3.37 s simulation | swap approach
+
+00:00:02.000 --> 00:00:02.500
+Recorded event / step 902 / 3.61 s simulation | swap approach settle
+
+00:00:02.500 --> 00:00:03.000
+Recorded event / step 1102 / 4.41 s simulation | swap close
+
+00:00:03.000 --> 00:00:03.500
+Recorded event / step 1263 / 5.05 s simulation | swap lift
+
+00:00:03.500 --> 00:00:04.000
+Recorded event / step 1323 / 5.29 s simulation | swap lift settle
+
+00:00:04.000 --> 00:00:04.500
+Recorded event / step 1504 / 6.02 s simulation | swap carry
+
+00:00:04.500 --> 00:00:05.000
+Recorded event / step 1564 / 6.26 s simulation | swap carry settle
+
+00:00:05.000 --> 00:00:05.500
+Recorded event / step 1705 / 6.82 s simulation | swap place
+
+00:00:05.500 --> 00:00:06.000
+Recorded event / step 1765 / 7.06 s simulation | swap place settle
+
+00:00:06.000 --> 00:00:06.500
+Recorded event / step 1965 / 7.86 s simulation | release
+
+00:00:06.500 --> 00:00:07.000
+Recorded event / step 2106 / 8.42 s simulation | swap clear
+
+00:00:07.000 --> 00:00:07.500
+Recorded event / step 2166 / 8.66 s simulation | swap clear settle
+
+00:00:07.500 --> 00:00:08.000
+Recorded event / step 2627 / 10.51 s simulation | return home
+
+00:00:08.000 --> 00:00:08.500
+Recorded event / step 2687 / 10.75 s simulation | home settle
+
+00:00:08.500 --> 00:00:09.000
+Recorded event / step 2887 / 11.55 s simulation | swap button close empty
+
+00:00:09.000 --> 00:00:09.500
+Recorded event / step 3288 / 13.15 s simulation | swap button above
+
+00:00:09.500 --> 00:00:10.000
+Recorded event / step 3348 / 13.39 s simulation | swap button above settle
+
+00:00:10.000 --> 00:00:10.500
+Recorded event / step 3469 / 13.88 s simulation | swap button contact
+
+00:00:10.500 --> 00:00:11.000
+Recorded event / step 3529 / 14.12 s simulation | swap button contact settle
+
+00:00:11.000 --> 00:00:11.500
+Recorded event / step 3650 / 14.60 s simulation | swap button release
+
+00:00:11.500 --> 00:00:12.000
+Recorded event / step 3710 / 14.84 s simulation | swap button release settle
+
+00:00:12.000 --> 00:00:12.500
+Recorded event / step 4111 / 16.44 s simulation | return home
+
+00:00:12.500 --> 00:00:13.000
+Recorded event / step 4171 / 16.68 s simulation | home settle
+
+00:00:13.000 --> 00:00:13.500
+Recorded event / step 4371 / 17.48 s simulation | swap open
+
+00:00:13.500 --> 00:00:14.000
+Recorded event / step 4752 / 19.01 s simulation | swap above
+
+00:00:14.000 --> 00:00:14.500
+Recorded event / step 4812 / 19.25 s simulation | swap above settle
+
+00:00:14.500 --> 00:00:15.000
+Recorded event / step 4973 / 19.89 s simulation | swap approach
+
+00:00:15.000 --> 00:00:15.500
+Recorded event / step 5033 / 20.13 s simulation | swap approach settle
+
+00:00:15.500 --> 00:00:16.000
+Recorded event / step 5233 / 20.93 s simulation | swap close
+
+00:00:16.000 --> 00:00:16.500
+Recorded event / step 5394 / 21.58 s simulation | swap lift
+
+00:00:16.500 --> 00:00:17.000
+Recorded event / step 5454 / 21.82 s simulation | swap lift settle
+
+00:00:17.000 --> 00:00:17.500
+Recorded event / step 5615 / 22.46 s simulation | swap carry
+
+00:00:17.500 --> 00:00:18.000
+Recorded event / step 5675 / 22.70 s simulation | swap carry settle
+
+00:00:18.000 --> 00:00:18.500
+Recorded event / step 5816 / 23.26 s simulation | swap place
+
+00:00:18.500 --> 00:00:19.000
+Recorded event / step 5876 / 23.50 s simulation | swap place settle
+
+00:00:19.000 --> 00:00:19.500
+Recorded event / step 6076 / 24.30 s simulation | release
+
+00:00:19.500 --> 00:00:20.000
+Recorded event / step 6217 / 24.87 s simulation | swap clear
+
+00:00:20.000 --> 00:00:20.500
+Recorded event / step 6277 / 25.11 s simulation | swap clear settle
+
+00:00:20.500 --> 00:00:21.000
+Recorded event / step 6698 / 26.79 s simulation | return home
+
+00:00:21.000 --> 00:00:21.500
+Recorded event / step 6758 / 27.03 s simulation | home settle
+
+00:00:21.500 --> 00:00:22.000
+Recorded event / step 6958 / 27.83 s simulation | swap button close empty
+
+00:00:22.000 --> 00:00:22.500
+Recorded event / step 7359 / 29.44 s simulation | swap button above
+
+00:00:22.500 --> 00:00:23.000
+Recorded event / step 7419 / 29.68 s simulation | swap button above settle
+
+00:00:23.000 --> 00:00:23.500
+Recorded event / step 7540 / 30.16 s simulation | swap button contact
+
+00:00:23.500 --> 00:00:24.000
+Recorded event / step 7600 / 30.40 s simulation | swap button contact settle
+
+00:00:24.000 --> 00:00:24.500
+Recorded event / step 7721 / 30.88 s simulation | swap button release
+
+00:00:24.500 --> 00:00:25.000
+Recorded event / step 7781 / 31.12 s simulation | swap button release settle
+
+00:00:25.000 --> 00:00:25.500
+Recorded event / step 8182 / 32.73 s simulation | return home
+
+00:00:25.500 --> 00:00:26.000
+Recorded event / step 8242 / 32.97 s simulation | home settle
+
+00:00:26.000 --> 00:00:26.500
+Recorded event / step 8442 / 33.77 s simulation | swap open
+
+00:00:26.500 --> 00:00:27.000
+Recorded event / step 8763 / 35.05 s simulation | swap above
+
+00:00:27.000 --> 00:00:27.500
+Recorded event / step 8823 / 35.29 s simulation | swap above settle
+
+00:00:27.500 --> 00:00:28.000
+Recorded event / step 8984 / 35.94 s simulation | swap approach
+
+00:00:28.000 --> 00:00:28.500
+Recorded event / step 9044 / 36.18 s simulation | swap approach settle
+
+00:00:28.500 --> 00:00:29.000
+Recorded event / step 9244 / 36.98 s simulation | swap close
+
+00:00:29.000 --> 00:00:29.500
+Recorded event / step 9405 / 37.62 s simulation | swap lift
+
+00:00:29.500 --> 00:00:30.000
+Recorded event / step 9465 / 37.86 s simulation | swap lift settle
+
+00:00:30.000 --> 00:00:30.500
+Recorded event / step 9726 / 38.90 s simulation | swap carry
+
+00:00:30.500 --> 00:00:31.000
+Recorded event / step 9786 / 39.14 s simulation | swap carry settle
+
+00:00:31.000 --> 00:00:31.500
+Recorded event / step 9927 / 39.71 s simulation | swap place
+
+00:00:31.500 --> 00:00:32.000
+Recorded event / step 9987 / 39.95 s simulation | swap place settle
+
+00:00:32.000 --> 00:00:32.500
+Recorded event / step 10187 / 40.75 s simulation | release
+
+00:00:32.500 --> 00:00:33.000
+Recorded event / step 10328 / 41.31 s simulation | swap clear
+
+00:00:33.000 --> 00:00:33.500
+Recorded event / step 10388 / 41.55 s simulation | swap clear settle
+
+00:00:33.500 --> 00:00:34.000
+Recorded event / step 10829 / 43.32 s simulation | return home
+
+00:00:34.000 --> 00:00:34.500
+Recorded event / step 10889 / 43.56 s simulation | home settle
+
+00:00:34.500 --> 00:00:35.000
+Recorded event / step 11089 / 44.36 s simulation | swap button close empty
+
+00:00:35.000 --> 00:00:35.500
+Recorded event / step 11490 / 45.96 s simulation | swap button above
+
+00:00:35.500 --> 00:00:36.000
+Recorded event / step 11550 / 46.20 s simulation | swap button above settle
+
+00:00:36.000 --> 00:00:36.500
+Recorded event / step 11671 / 46.68 s simulation | swap button contact
+
+00:00:36.500 --> 00:00:37.000
+Recorded event / step 11731 / 46.92 s simulation | swap button contact settle
+
+00:00:37.000 --> 00:00:37.500
+Recorded event / step 11852 / 47.41 s simulation | swap button release
+
+00:00:37.500 --> 00:00:38.000
+Recorded event / step 11912 / 47.65 s simulation | swap button release settle
+
+00:00:38.000 --> 00:00:38.500
+Recorded event / step 12313 / 49.25 s simulation | return home
+
+00:00:38.500 --> 00:00:39.000
+Recorded event / step 12373 / 49.49 s simulation | home settle
+
+00:00:39.000 --> 00:00:39.500
+Recorded event / step 12573 / 50.29 s simulation | swap final open
+
+00:00:39.500 --> 00:00:40.000
+Recorded event / step 12634 / 50.54 s simulation | return home
+
+00:00:40.000 --> 00:00:40.500
+Recorded event / step 12694 / 50.78 s simulation | home settle
+
+00:00:40.500 --> 00:00:41.000
+Recorded event / step 12894 / 51.58 s simulation | swap final open
+
+00:00:41.000 --> 00:00:41.500
+Recorded event / step 12955 / 51.82 s simulation | return home
+
+00:00:41.500 --> 00:00:42.000
+Recorded event / step 13015 / 52.06 s simulation | home settle
