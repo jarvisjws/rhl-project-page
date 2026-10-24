@@ -27,10 +27,12 @@ The current site does not directly fetch the private experiment dataset. Review 
 ## Repository status — 24 October 2026
 
 This is the private preparation repository `jarvisjws/rhl-project-page`.
-GitHub Pages is not enabled. Author details are pending; no Paper link is supplied.
-The owner will review the whole release before changing visibility or publishing.
+GitHub Pages is enabled at https://jarvisjws.github.io/rhl-project-page/.
+The repository remains private, but the review website is publicly accessible.
+Author details are pending; no Paper link is supplied.
+The owner requested this hosted version for review; this is not a final research release.
 `github-pages.workflow.example.yml` is an inactive deployment example, outside
-`.github/workflows`; do not activate it before release approval.
+`.github/workflows`; Pages currently deploys from the main branch root using GitHub’s branch publishing.
 
 The initial website is derived from the reviewed r2 package. No private research
 Git history, experiment archives, credentials or runtime paths are included.

@@ -1,6 +1,6 @@
 # RHL project homepage — review delivery
 
-Prepared on 24 October 2026 from manuscript v0.31 and the selected historical experiment records. This is a local review build and a static GitHub Pages package. It has not been published, and author acceptance is still pending.
+Prepared on 24 October 2026 from manuscript v0.31 and the selected historical experiment records. This is a local review build and a static GitHub Pages package. It is now hosted for author review at https://jarvisjws.github.io/rhl-project-page/. The source repository remains private; the website is publicly accessible. Final author acceptance is still pending.
 
 ## Open and review
 
@@ -39,10 +39,10 @@ Basic checks covered complete decoding and actual frame counts for all 25 files,
 
 ## Before public release
 
-Review the actual page and settle the public repository/URL, author list, publication/citation metadata, Paper/Code links and the target venue's anonymity requirements. `ATTRIBUTION.md` preserves inspected environment code-license notices; these do not automatically license every third-party mesh or texture. Confirm the selected media's public redistribution scope before publishing.
+The review URL is established. Review the page and settle the author list, publication/citation metadata, Paper/Code links and the target venue's anonymity requirements before final release. `ATTRIBUTION.md` preserves inspected environment code-license notices; these do not automatically license every third-party mesh or texture. Confirm the selected media's public redistribution scope before publishing.
 
 Copy only the approved `site` contents to the public homepage repository. The companion GitHub Pages workflow is manual-only and has not been installed or triggered. Do not publish the private project repository, experiment archives or internal evidence paths. Public release and overall paper acceptance remain separate from this local delivery.
 
 ## 24 October provenance clarification
 
-The result explanation explicitly retains author-reviewed task-goal acceptance for Twin Pick49 and Handover3028, without overwriting the original framework checks. Counts and all media remain unchanged. The r2 review archive supersedes the first archive for current wording; no public release has occurred.
+The result explanation explicitly retains author-reviewed task-goal acceptance for Twin Pick49 and Handover3028, without overwriting the original framework checks. Counts and all media remain unchanged. The r2 review archive supersedes the first archive for current wording; the review website is now hosted, while the final research release remains pending.
